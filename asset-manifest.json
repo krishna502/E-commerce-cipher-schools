@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/E-commerce-cipher-schools/static/css/main.6b4f3d11.css",
+    "main.js": "/E-commerce-cipher-schools/static/js/main.2feb7821.js",
+    "static/js/787.76b72599.chunk.js": "/E-commerce-cipher-schools/static/js/787.76b72599.chunk.js",
+    "index.html": "/E-commerce-cipher-schools/index.html",
+    "main.6b4f3d11.css.map": "/E-commerce-cipher-schools/static/css/main.6b4f3d11.css.map",
+    "main.2feb7821.js.map": "/E-commerce-cipher-schools/static/js/main.2feb7821.js.map",
+    "787.76b72599.chunk.js.map": "/E-commerce-cipher-schools/static/js/787.76b72599.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b4f3d11.css",
+    "static/js/main.2feb7821.js"
+  ]
+}
