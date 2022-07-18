@@ -12,7 +12,7 @@ function Cards() {
   const {addItem} = useCart();
   return (
     <Container>
-      <div className='d-flex flex-row m-3 overflow-auto'>
+      <div className='d-flex flex-row m-5 overflow-auto'>
         {Records && Records.map(record => {
           return (
             <Card className="text-center" style={{ width: '18rem', margin: '5px' }}>

@@ -6,9 +6,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './NavBar.css'
 import { Link } from 'react-router-dom';
+import {useCart} from 'react-use-cart';
+import { HiShoppingCart } from "react-icons/hi";
 function NavBar() {
+  const{
+    totalUniqueItems}= useCart();
   return (
-    <Navbar bg="light" expand="lg" className="my-5">
+    <Navbar bg="light" expand="lg" className="my-3">
       <Container >
         <Navbar.Brand className='bella'>Bella</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -38,9 +42,9 @@ function NavBar() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-success" className='mr-2'>Search</Button>
             <Link to={'/cart'}>
-      <Button type='submit' variant="outline-success" className='pl-5'>Cart</Button>
+      <Button type='submit' variant="outline-danger" style={{width:"80px"}}><HiShoppingCart fontSize="30px" />({totalUniqueItems})</Button>
       </Link>
           </Form>
         </Navbar.Collapse>
